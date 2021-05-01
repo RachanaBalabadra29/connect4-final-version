@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+
+.App-intro {
+  font-size: large;
+}
+
+.Game {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+    background-color: #087917;
+    border: 1px solid #f3f4f7;
+    border-radius: 3px;
+    display: inline-block;
+    color: #FFF;
+    font-size: 20px;
+    padding: 7px 28px;
+    text-decoration: none;
+    margin: 5px;
+    transition: all 0.5s;
+
+    position: relative;
+    top:-70px;
+    left: 50px;
+    
+}
+
+
+
+.Board {
+  display: flex;
+  background: #000000;
+  height: 570px;
+  width:700px;
+  position: relative;
+  top: -50px;
+}
+
+.Slat {
+  height: 570px;
+}
+
+.Hole {
+  padding: 5px;
+  margin: 4px;
+  min-width: 30px;
+  min-height: 30px;
+  border: 9px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  left: 18px;
+  top:10px;
+}
+
+.Hole div {
+  position: relative;
+  min-width: 60px;
+  min-height: 60px;
+  
+  top: -400px;
+  transition: transform 0.5s;
+  border-radius: 50%;
+}
+
+.Red {
+  background-color: rgb(255, 55, 55);
+  transform: translateY(400px);
+  
+}
+
+.Blue {
+  background-color: #2CC5FF;
+  transform: translateY(400px);
+  
+}
+
+.winnerMessage {
+  color: #3D9970;
+  text-transform: uppercase;
+  text-align: center;
+  animation: dropfromtop 1s linear;
+  position: relative;
+  top:-660px;
+}
+
+.appear {
+  opacity: 1;
+  font-size: 20pt;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

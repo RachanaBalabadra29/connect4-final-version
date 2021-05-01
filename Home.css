@@ -1,0 +1,18 @@
+* {
+    text-align: center;
+}
+body {
+    
+    min-height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ul {
+    list-style-type: none;
+}
+#sp {
+    margin-top: 70px;
+}
+button,input{
+    border-radius: 1em;
+}
